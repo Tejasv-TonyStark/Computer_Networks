@@ -1,0 +1,13 @@
+Introduction to Networking: It emphasizes the importance of networking for developers and briefly touches on how the internet works (0:04).
+Computer Networks and the Internet: A computer network is defined as computers connected together. The internet is a global collection of these computer networks (2:35, 3:30).
+History of the Internet: The internet originated from ARPANET, created by ARPA (Advanced Research Projects Agency) in response to the Cold War, allowing communication between research facilities (4:41, 5:51).
+Protocols: These are sets of rules that define how data is sent over the internet. Examples include TCP (Transmission Control Protocol) for reliable data transfer (like secure files), and UDP (User Datagram Protocol) for faster, less critical transfers (like video conferencing) (7:23, 22:11, 22:41).
+World Wide Web (WWW): Developed by Tim Berners-Lee, the WWW allows access to interconnected documents via hyperlinks and is published by web servers (11:01, 12:09).
+Client-Server Model: Explains that a client (your computer) sends requests to a server (like Google's server), which then sends back a response (17:43). Your computer can act as both a client and a server.
+Data Transfer: Data is sent in small pieces called packets (24:28).
+IP Addresses: Every device on the internet has a unique IP address (like a phone number for computers). Domain names (like google.com) are resolved to IP addresses (25:16, 26:35).
+Global vs. Local IP Addresses: Your ISP gives your modem a single global IP address. Your modem then assigns local IP addresses to devices connected to your Wi-Fi (28:04). DHCP is the protocol that assigns these local IP addresses (29:36).
+NAT (Network Address Translation): Used by your router to direct incoming responses from the internet to the correct local device (30:27).
+Ports: These identify which application on a device should receive specific data (e.g., web browsing uses Port 80 for HTTP). They allow multiple applications to use the internet on one device (31:59, 32:54).
+Internet Speed: Measured in Mbps (megabits per second), not megabytes (39:03).
+Physical Connection: Countries are connected globally by submarine fiber optic cables laid under the ocean, which provide faster data transfer than satellites (41:04, 42:17).

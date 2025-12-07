@@ -1,0 +1,115 @@
+NETWORK TOPOLOGIES (55:00 – 1:01:13)
+
+• Network topology describes the physical structure of how devices are connected.
+• Types:
+
+Bus Topology – All devices connected to a single backbone cable.
+Pros: Simple, cheap
+Cons: Cable failure affects entire network
+
+Star Topology – All devices connected to a central hub/switch.
+Pros: Easy to manage
+Cons: Central hub failure stops the network
+
+Ring Topology – Devices connected in a circular chain.
+Pros: Predictable data flow
+Cons: One break stops communication
+
+Tree Topology – Hierarchical mix of Star + Bus.
+Pros: Scalable
+Cons: Complex and costly
+
+Mesh Topology – Every device connected to every other device.
+Pros: Highly reliable
+Cons: Very expensive (many cables)
+
+OSI MODEL OVERVIEW (1:01:13 – 1:28:50)
+
+• OSI Model = Conceptual 7-layer framework to understand how data travels in a network.
+• Top to Bottom:
+7. Application
+6. Presentation
+5. Session
+4. Transport
+3. Network
+2. Data Link
+
+Physical
+• Helps visualize how communication happens between devices from software to hardware.
+
+LAYER DETAILS (Deep Understanding from our discussion)
+APPLICATION LAYER
+
+• Closest to the user — applications like browsers, WhatsApp, Gmail.
+• Provides services for internet communication.
+• Protocols: HTTP, HTTPS, SMTP, FTP, DNS, DHCP
+• Supports architectures:
+– Client–Server
+– Peer–to–Peer
+• Communicates using HTTP request and response format.
+
+PRESENTATION LAYER
+
+• Prepares data so apps can understand it.
+• Functions:
+– Translation (ASCII, Unicode)
+– Encryption / Decryption (SSL, TLS)
+– Compression / Decompression (ZIP, MPEG)
+• Example: HTTPS uses encryption done by this layer.
+
+SESSION LAYER
+
+• Manages sessions (conversations) between client and server.
+• Functions:
+– Establish session
+– Maintain session
+– Terminate session
+• Uses checkpoints so communication can restart if interrupted.
+
+TRANSPORT LAYER
+
+• End-to-end reliable delivery between devices.
+• Breaks and rebuilds data using Segmentation.
+• Uses port numbers to identify applications.
+• Protocols:
+– TCP → Reliable, ordered, connection-oriented (handshake)
+– UDP → Fast, no guarantee, used in streaming/gaming
+• Port types:
+– Well-known ports (e.g., 80 HTTP, 443 HTTPS, 3306 MySQL)
+– Ephemeral ports — temporary random ports used by clients
+
+CONNECTION ESTABLISHMENT (From our discussion)
+
+• TCP Handshake:
+
+SYN
+
+SYN + ACK
+
+ACK
+• After handshake, a socket is created.
+Socket = IP + Port
+• IP identifies the device, Port identifies the application.
+
+ROLES OF DEVICES (From our discussion)
+
+• Switch → Works inside same network using MAC addresses (Layer 2)
+• Router → Connects different networks using IP addresses (Layer 3)
+• Repeater → Regenerates weak signals in middle of path (Layer 1)
+• Hub → Broadcasts to all devices (Layer 1)
+
+HTTP COMMUNICATION (From our discussion)
+
+• HTTP is NOT data — it is the etiquette / rules / format for communication.
+• TCP provides the connection, HTTP defines how messages are written.
+• Client sends HTTP REQUEST → Server sends HTTP RESPONSE.
+• Request has → Method + Headers + Body (optional)
+• Response has → Status Code + Headers + Body
+
+KEY ONE-LINERS FOR REVISION
+
+• IP finds the device, Port finds the application, Socket connects them.
+• Switch forwards inside same network (MAC). Router forwards across networks (IP).
+• Client uses ephemeral ports. Server uses fixed known ports.
+• HTTP is the communication language between browser and server.
+• TCP handshake: SYN → SYN-ACK → ACK.
